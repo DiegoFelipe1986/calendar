@@ -1,22 +1,22 @@
 <template>
-  <div>
+  <div class="container">
     <NavbarComponent></NavbarComponent>
-    <router-view :notes="notes" />
+    <div class="content">
+    </div>
   </div>
 </template>
 
 <script>
-
 import NavbarComponent from "@/components/NavbarComponent.vue";
+
 export default {
   components: {
+    NavbarComponent,
+  },
 
-    NavbarComponent
-  },
-  data() {
-    return {
-      notes: {}, // Puedes inicializar con datos existentes si es necesario
-    };
-  },
 };
 </script>
+
+<style scoped>
+
+</style>
