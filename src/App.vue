@@ -15,7 +15,7 @@ export default {
   },
   data() {
     return {
-      notes: {}, // Puedes inicializar con datos existentes si es necesario
+      notes: {},
     };
   },
 };
